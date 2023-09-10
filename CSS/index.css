@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+
+button {
+    background-color: #6A9739;
+    border-radius: 5px;
+    padding: 16px 42px;
+    display: flex;
+    gap: 10px;
+    border: none;
+    color: white;
+    font-size: small;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: green;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* NAV BAR */
+
+nav {
+    padding: 15px 36px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.795);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-right, .nav-left {
+    width: 49vw;
+}
+    /* Nav - BAR - LEFT STYLING */
+.nav-left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-item-1 img {
+    width: 150px;
+}
+
+.list-1 {
+    gap: 39px;
+}
+
+    /* NAV-BAR-RIGHT-STYLING */
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-2 {
+    gap: 48px;
+}
+
+.list-2-1 {
+    gap: 32px;
+}
+
+.list-2-2{
+    display: flex;
+    gap: 40px; 
+}
+
+.list-2-2-1 {
+    gap: 20px;
+}
+
+/* MAIN SECTION */
+section:nth-child(1) {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(40deg, #ffffff, #FAF9F6);
+}
+
+/* FOOTER SECTION */
+footer{
+    background-color: #001524;
+}
+
+.foo-content {
+    width: 35%;
+    display: grid;
+    gap: 10rem;
+    margin: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 75% 25% 54%;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 84px;
+    color: #A8AFB4;
+    line-height: 1.6em;
+}
+
+.foo-item2 ul li {
+    color: #A8AFB4;
+    transition: color 0.3s ease-in-out;
+}
+
+.foo-item2 ul li:hover {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.foo-item3 ul li:hover {
+    color: #709835;
+    transition: color 0.3s ease-in-out;
+}
+
+.foo-item3 ul li {
+    color: #88B840;
+    transition: color 0.3s ease-in-out;
+}
+
+.foo h2 {
+    margin: 30px 0px;
+    color: #FFFFFF;
+}
+
+.foo img {
+    margin-bottom: 40px;
+}
+
+.foo ul {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.foo img {
+    width: 182px;
+}
+
+.fa-solid {
+    color: grey;
+}
+
+.foo-item2 h2:first-child {
+    margin-bottom: 50px;
+}
+
+.foo-item4 {
+    color: rgb(173, 173, 173);
+    align-items: center;
+    font-size: 1em;
+    display: flex;
+    gap: 400px;
+    padding: 29px;
+    justify-content: space-around;
+    border-top: 1px solid rgba(128, 128, 128, 0.247);
+}
+
+.foo-item4:last-child ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.store-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+/* HEADER */
+.header-content {
+    gap: 80px;
+    display: flex;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    width: 33rem;
+}
+
+.header-text ul {
+    list-style: none;
+    gap: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-text ul li h1 {
+    font-size: 3em;
+}
+
+.header-text ul li button {
+    margin-top: 20px;
+}
+
+.header-text li .fa-solid {
+    color: white;
+}
+
+/* Features */
+.features {
+    gap: 20px;
+    height: 100px;
+    display: grid;
+    color: white;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+    grid-template-columns: repeat(4, 280px);
+}
+
+.fa-xl {
+    color: rgb(78, 193, 78);
+}
+
+.f-item {
+    padding: 2em;
+    border-radius: 4px;
+    background-color: rgb(73, 73, 73);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* PRODUCTS */
+.best-selling {
+    width: 100%;
+    display: flex;
+    padding: 10rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-selling h3 {
+    font-size: 2.8rem;
+}
+
+.best-selling img {
+    margin: 20px 0;
+}
+
+.products-container {
+    display: grid;
+    gap: 20px;
+    text-align: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.p-items h4 {
+    margin: 5px 0;
+}
+
+figure img {
+    width: 280px;
+}
+
+figcaption {
+    color: #A8AFB4;
+    font-size: small;
+}
