@@ -247,6 +247,10 @@ footer{
     font-family: 'Open Sans',sans-serif;
 }
 
+.foo-item4 div p {
+    font-family: 'Open Sans',sans-serif;
+}
+
 /* PRODUCTS */
 .best-selling {
     width: 100%;
@@ -383,4 +387,21 @@ figcaption {
     opacity: .25;
     mix-blend-mode: multiply;
     transition: background .3s,border-radius .3s,opacity .3s;
+}
+
+
+.card-1 {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product11-free-img.jpg");
+}
+
+.card-2 {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product13-free-img.jpg");
+}
+
+.card-3 {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/product17-free-img.jpg");
+}
+
+a {
+    text-decoration: none;
 }
