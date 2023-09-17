@@ -1,0 +1,154 @@
+.veggies-box {
+    display: grid;
+    gap: 2rem;
+    padding: 5rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+    background-color: #F8F6F3;
+    grid-template-columns: repeat(3, 22.5rem);
+}
+
+.card {
+    padding: 2rem;
+    height: 18rem;
+    text-align: center;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.card h2 {
+    font-family: 'Merriweather', serif;
+}
+
+.card p {
+    margin: 1rem 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.fa-arrow-right {
+    color: white;
+}
+
+.card button {
+    background-color: #6A9739;
+    border-radius: 5px;
+    padding: 16px 42px;
+    display: flex;
+    gap: 10px;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease-in-out;
+    margin: 0 1rem;
+}
+
+.card button:hover {
+    background-color: green;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.grid ul {
+    margin-top: 2em;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+  
+div p {
+    line-height: 1.3rem;
+}
+  
+.container {
+    gap: 25px;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    align-items: end;
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    /* grid-template-rows: 1fr 10px; */
+    grid-template-columns: repeat(3, 25rem);
+}
+  
+.grid {
+    display: flex;
+    padding: 3rem;
+    border-radius: 8px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.grid p {
+    margin-top: 1rem;
+    font-family: 'Open Sans',sans-serif;
+}
+  
+.item2 {
+    height: 22rem;
+    color: white;
+    overflow: hidden;
+    background: black;
+    background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background-image: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("https://images.unsplash.com/photo-1487646709898-58d3c6e8d886?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80");
+    background-image: linear-gradient(rgb(54 54 54 / 80%), rgb(34 34 34 / 80%)), url(https://images.unsplash.com/photo-1487646709898-58d3c6e8d886?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80); /* The least supported option. */
+    background-size: cover;
+}
+  
+.item2 button {
+    border: none;
+    color: white;
+    font-size: small;
+    margin-top: 60px;
+    padding: 13px 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #6A9739;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.item2 h2 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+  
+.item2 p {
+    color: #e2e2e2;
+    margin-top: 1.5rem;
+}
+  
+.item2 button:hover {
+    background-color: green;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.grid ul li {
+    font-family: 'Merriweather', serif;
+}
+
+/* FEATURED BRANDS */
+.featured-brands {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 1rem;
+    padding: 3rem;
+}
+
+.featured-brands h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.brands-grid {
+    gap: 1rem;
+    display: flex;
+}

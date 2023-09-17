@@ -1,12 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;400;500;600;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans',sans-serif;
 }
-
 
 button {
     background-color: #6A9739;
@@ -33,6 +28,7 @@ nav {
     display: flex;
     align-items: center;
     color: rgba(0, 0, 0, 0.795);
+    font-family: 'Open Sans',sans-serif;
 }
 
 .nav-list {
@@ -86,6 +82,7 @@ section:nth-child(1) {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(40deg, #ffffff, #FAF9F6);
+    font-family: 'Merriweather', serif;
 }
 
 /* FOOTER SECTION */
@@ -99,12 +96,13 @@ footer{
     gap: 10rem;
     margin: auto;
     grid-template-rows: 1fr;
-    grid-template-columns: 75% 25% 54%;
+    grid-template-columns: 28rem 9.2rem 20rem;
     justify-content: center;
     padding-bottom: 100px;
     padding-top: 84px;
     color: #A8AFB4;
     line-height: 1.6em;
+    font-family: 'Open Sans',sans-serif;
 }
 
 .foo-item2 ul li {
@@ -130,6 +128,8 @@ footer{
 .foo h2 {
     margin: 30px 0px;
     color: #FFFFFF;
+    font-family: 'Merriweather', serif;
+
 }
 
 .foo img {
@@ -200,6 +200,10 @@ footer{
     font-size: 3em;
 }
 
+.header-text ul li p {
+    font-family: 'Open Sans',sans-serif;
+}
+
 .header-text ul li button {
     margin-top: 20px;
 }
@@ -233,6 +237,16 @@ footer{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.f-item h3 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.f-item p {
+    font-family: 'Open Sans',sans-serif;
+}
+
 /* PRODUCTS */
 .best-selling {
     width: 100%;
@@ -245,6 +259,7 @@ footer{
 
 .best-selling h3 {
     font-size: 2.8rem;
+    font-family: 'Merriweather', serif;
 }
 
 .best-selling img {
@@ -260,6 +275,11 @@ footer{
 
 .p-items h4 {
     margin: 5px 0;
+    font-family: 'Merriweather', serif;
+}
+
+.p-items p {
+    font-family: 'Open Sans',sans-serif;
 }
 
 figure img {
@@ -269,4 +289,98 @@ figure img {
 figcaption {
     color: #A8AFB4;
     font-size: small;
+}
+
+/* Leaf */
+.leaf {
+    background-color: #F8F6F3;
+}
+
+.leaf img {
+    width: 10rem;
+    position: relative;
+    top: -2rem;
+}
+
+/* DISCOUNT */
+.discount {
+    display: flex;
+    color: white;
+    padding: 3.5rem;
+    align-items: center;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.discount h1 {
+    font-size: 2rem;
+}
+
+.discount button {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.discount .fa-cart-shopping {
+    color: white;
+}
+
+.pointy-tip-bottom {
+    top: 4.5rem;
+    right: 40%;
+    width: 2rem;
+    height: 3rem;
+    rotate: 135deg;
+    position: relative;
+    background-color: black;
+}
+
+.text-under-pointy {
+    padding: 2rem;
+    background-color: #F8F6F3;
+    font-family: 'Merriweather', serif;
+}
+
+/* TRENDING PRODUCTS */
+.trending-products {
+    padding: 10rem 0;
+}
+
+.customer-reviews {
+    padding-bottom: 5rem;
+}
+
+.trending-products, .customer-reviews {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-products h3, .customer-reviews h3 {
+    font-size: 2.2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.trending-products img, .customer-reviews img {
+    margin: 20px 0;
+}
+
+.two-sections-together {
+    background-image: linear-gradient(90deg, #ffffff, #FAF9F6);
+}
+
+.discount-txt {
+    font-family: 'Merriweather', serif;
+}
+
+/* BACKGROUND IMAGES */
+.elementor-background-overlay {
+    background-image: url("https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2019/06/leaves-free-img.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 28% auto;
+    opacity: .25;
+    mix-blend-mode: multiply;
+    transition: background .3s,border-radius .3s,opacity .3s;
 }
