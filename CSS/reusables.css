@@ -1,3 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV - BAR */
+nav {
+    padding: 15px 36px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.795);
+    font-family: 'Open Sans',sans-serif;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-right, .nav-left {
+    width: 49vw;
+}
+    /* Nav - BAR - LEFT STYLING */
+.nav-left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.nav-item-1 img {
+    width: 150px;
+}
+
+.list-1 {
+    gap: 39px;
+}
+
+    /* NAV-BAR-RIGHT-STYLING */
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.list-2 {
+    gap: 48px;
+}
+
+.list-2-1 {
+    gap: 32px;
+}
+
+.list-2-2{
+    display: flex;
+    gap: 40px; 
+}
+
+.list-2-2-1 {
+    gap: 20px;
+}
+
+
+
 .veggies-box {
     display: grid;
     gap: 2rem;
