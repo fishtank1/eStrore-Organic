@@ -1,12 +1,16 @@
+/* GLOBAL */
 .b-1 {
     background-color: #F8F6F3;
 }
 
 .wrapper {
     margin: auto;
-    height: 50vh;
+    /* height: 50vh; */
+    height: fit-content;
     max-width: 75rem;
 }
+
+/* PRODUCT DISCRIPTION AND IMAGE */
 
 .product-display {
     gap: 3rem;
@@ -94,10 +98,178 @@ hr {
 
 .product-description p {
     margin-top: 0.4rem;
-    font-size: 0.9rem;
+    font-size: 0.98rem;
     font-family: 'Open Sans',sans-serif;
 }
 
 .product-description p span {
     color: #6a9739c0;
+}
+
+/* DISCRIPTION AND REVIEW SECTION */
+.description-and-review {
+    gap: 1.3rem;
+    display: flex;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.descript-b {
+    border-top: 3.5px solid #6bb917c1;
+}
+
+.review-b {
+    border-top: 3.5px solid #6bb91700;
+}
+
+.descript-b, .review-b {
+    padding: 0.4rem 0;
+    color: rgba(0, 0, 0, 0.752);
+}
+
+.description-review-products {
+    height: 2rem;
+}
+
+/* DISCRIPTION AND REVIEW SHOW CONTENTS */
+.description-review-content {
+    margin-top: 1rem;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.description-review-content p {
+    line-height: 1.5rem;
+}
+
+.description-review-content h3 {
+    margin-top: 5rem;
+    font-size: 2.1rem;
+    font-family: 'Merriweather', serif;
+}
+
+figcaption {
+    color: grey;
+    font-size: small;
+    padding-top: 0.5rem;
+}
+
+/* FOOTER */
+footer {
+    background-color: #001524;
+}
+
+.footer-1 {
+    gap: 8.5rem;
+    display: grid;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    justify-content: center;
+    grid-template-columns: 30rem 10rem 18rem;
+}
+
+.foo-1, .foo-2, .foo-3 {
+    height: 20rem;
+    /* border: 1px solid red; */
+}
+
+.foo-1 {
+    padding: 0 2rem;
+}
+
+.foo-1 img {
+    width: 11rem;
+}
+
+.foo-1 p, .foo-2 p, .foo-3 p {
+    color: rgba(255, 255, 255, 0.567);
+}
+
+.foo-1 p {
+    font-weight: bold;
+    line-height: 1.5rem;
+    padding-top: 2.2rem;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.quick-links h3, .site-links h4, .download-text h4, .quick-links2 h4 {
+    font-family: 'Merriweather', serif;
+}
+
+.quick-links p, .site-links p, .download-text p {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.quick-links h3 {
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.site-links h4, .download-text h4, .quick-links2 h4 {
+    font-size: 1.2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.site-links h4 {
+    padding-top: 3.5rem;
+}
+
+.download-text h4 {
+    padding-top: 0;
+}
+
+.quick-links, .site-links, .download-text {
+    color: white;
+}
+
+.quick-links ul, .site-links ul, .quick-links2 ul {
+    gap: 0.2rem;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.641);
+    font-family: 'Open Sans',sans-serif;
+}
+
+.quick-links2 h4 {
+    color: white;
+}
+
+.quick-links2 ul {
+    color: #70b822dd;
+}
+
+.stores {
+    padding-top: 1rem;
+}
+
+.stores img {
+    width: 8rem;
+}
+
+.stores ul {
+    gap: 1.2rem;
+    display: flex;
+    list-style: none;
+}
+
+.footer-2 {
+    display: flex;
+    padding: 1.8rem 0;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.641);
+    font-family: 'Open Sans',sans-serif;
+}
+
+.foo-socials ul {
+    gap: 3rem;
+    display: flex;
+    list-style: none;
+}
+
+.footer-links {
+    padding-bottom: 3.5rem;
+}
+
+.footer-socials {
+    border-top: 1px solid rgba(128, 128, 128, 0.364);
 }

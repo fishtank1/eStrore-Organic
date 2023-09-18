@@ -219,3 +219,38 @@ div p {
     gap: 1rem;
     display: flex;
 }
+
+/* PRODUCTS PAGE */
+.ratings {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-card {
+    gap: 1rem;
+    display: grid;
+    text-align: center;
+    padding-top: 1.6rem;
+    padding-bottom: 5rem;
+    grid-template-columns: repeat(3, 18rem);
+}
+
+/* .sm-card-1, .sm-card-2, .sm-card-3 {
+    border: 1px solid red;
+} */
+
+.sm-card-1 img, .sm-card-2 img, .sm-card-3 img {
+    width: 18rem;
+}
+
+.sm-card-1 h4, .sm-card-2 h4, .sm-card-3 h4 {
+    padding: 0.5rem 0;
+    font-size: 0.99rem;
+    font-family: 'Merriweather', serif;
+}
+
+.sm-card-1 p, .sm-card-2 p, .sm-card-3 p {
+    font-size: 0.9rem;
+}
