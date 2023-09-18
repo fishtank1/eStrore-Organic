@@ -252,6 +252,30 @@ footer {
     list-style: none;
 }
 
+.quick-links ul li, .site-links ul li {
+    color: #A8AFB4;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.quick-links ul li:hover, .site-links ul li:hover {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.quick-links2 ul li {
+    cursor: pointer;
+    color: #88B840;
+    transition: color 0.3s ease-in-out;
+}
+
+.quick-links2 ul li:hover {
+    cursor: pointer;
+    color: #709835;
+    transition: color 0.3s ease-in-out;
+}
+
 .footer-2 {
     display: flex;
     padding: 1.8rem 0;
@@ -261,7 +285,7 @@ footer {
 }
 
 .foo-socials ul {
-    gap: 3rem;
+    gap: 1.6rem;
     display: flex;
     list-style: none;
 }
