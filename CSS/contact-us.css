@@ -1,0 +1,70 @@
+.heading-section {
+    display: flex;
+    height: 17rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav, .heading-section {
+    background-color: #f8f6f3;
+}
+
+.heading-section h1 {
+    font-size: 3.2rem;
+    margin-bottom: 6rem;
+    font-family: 'Merriweather', serif;
+}
+
+.contact-details {
+    background-color: white;   
+}
+
+.contact-details img {
+    z-index: 1;
+    left: 42.5rem;
+    width: 9.3rem;
+    bottom: 5rem;
+    position: relative;
+}
+
+.contact-details-grid {
+    gap: 2.5rem;
+    width: 61rem;
+    margin: auto;
+    display: grid;
+    padding-top: 6rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 3.2rem;
+    border-radius: 6px;
+    position: relative;
+    bottom: 7.5rem;
+    justify-content: center;
+    background-color: white;
+    grid-template-columns: 21.6rem 21.6rem 21.6rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.details-grid {
+    display: flex;
+    /* padding-left: 8rem; */
+    /* padding-right: 8rem; */
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3px;
+    border: 1px solid rgba(169, 163, 163, 0.522);
+    font-family: 'Open Sans',sans-serif;
+}
+
+.details-grid p {
+    padding-bottom: 0.3rem;
+}
+
+.fa-phone, .fa-envelope, .fa-location-dot {
+    display: block;
+    color: #8BC34A;
+    padding-bottom: 1.8rem;
+}
