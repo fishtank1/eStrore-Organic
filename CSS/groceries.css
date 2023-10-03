@@ -67,6 +67,10 @@ select {
     border: 1px solid rgb(207, 206, 206);
 }
 
+span {
+    color: black;
+}
+
 /* RIGHT SIDE */
 
 .groceries-right {
