@@ -67,9 +67,12 @@ select {
     border: 1px solid rgb(207, 206, 206);
 }
 
+/* RIGHT SIDE */
+
 .groceries-right {
-    padding-left: 3.5rem;
     padding-right: 2rem;
+    padding-left: 3.5rem;
+    align-self: flex-start;
     border-left: 1px solid rgb(207, 206, 206);
 }
 
