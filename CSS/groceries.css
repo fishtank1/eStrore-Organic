@@ -218,3 +218,28 @@ a {
     border-radius: 2px;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
+
+/* PAGE NAV */
+.page-nav {
+    gap: 0.5rem;
+    display: flex;
+    padding-bottom: 4rem;
+}
+
+.page-box {
+    color: #8bc34a;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    justify-content: center;
+    border: 1px solid #8bc34a;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.box-1 {
+    color: white;
+    background-color: #8bc34a;
+}
+
+.box-3 {
+    font-size: 0.9rem;
+}
