@@ -1,0 +1,110 @@
+/* GLOBAL */
+body {
+    background-color: #f8f6f3;
+}
+
+nav {
+    background-color: white;
+}
+
+.left-wrapper {
+    padding-right: 2rem;
+}
+
+select {
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: rgb(101, 101, 101);
+    background-color: #f8f6f3;
+}
+
+/* FONTS */
+.groceries-right h1, .groceries-left h3 {
+    font-family: 'Merriweather', serif;
+}
+
+.groceries-right p, .groceries-left ul {
+    font-family: 'Open Sans',sans-serif;
+}
+
+.groceries {
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+    background-color: #f8f6f3;
+}
+
+/* LEFT SIDE */
+
+.groceries-left form {
+    display: flex;
+}
+
+/* SEARCH BAR */
+.search-btn {
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0.5rem 0.8rem;
+    background-color: #6a9739;
+}
+
+#search-product {
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+    margin-right: 0.3rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid rgb(207, 206, 206);
+}
+
+.groceries-right {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    border-left: 1px solid rgb(207, 206, 206);
+}
+
+.groceries-right h1 {
+    font-size: 3.5rem;
+}
+
+.groceries-right p:first-child {
+    font-size: 0.9rem;
+    padding-bottom: 1rem;
+}
+
+
+.category-results-section {
+    display: flex;
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#category-info {
+    padding-top: 3rem;
+    line-height: 1.7rem;
+}
+
+.category-results-section p {
+    font-size: 1rem;
+}
+
+.groceries-left h3 {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.groceries-left ul {
+    list-style: none;
+    color: #8bc34a;
+    padding-top: 2rem;
+    line-height: 2rem;
+}
