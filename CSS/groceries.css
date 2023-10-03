@@ -39,6 +39,9 @@ select {
 }
 
 /* LEFT SIDE */
+.groceries-left {
+    align-self: flex-start;
+}
 
 .groceries-left form {
     display: flex;
@@ -109,6 +112,7 @@ select {
     color: #8bc34a;
     padding-top: 2rem;
     line-height: 2rem;
+    padding-bottom: 3rem;
 }
 
 /* GROCERRIES GRID */
@@ -160,4 +164,50 @@ figcaption {
 a {
     color: black;
     text-decoration: none;
+}
+
+/* RECOMMENDED GRID */
+.recommended-container {
+    display: grid;
+    grid-template-columns: 15rem;
+}
+
+.recm-b {
+    height: 7.5rem;
+    padding-bottom: 12rem;
+    border: 1px soid black;
+}
+
+.recm-b h4 {
+    /* margin: 5px 0; */
+    color: #8bc34a;
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding-top: 0.6rem;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.fa-star {
+    padding: 0 0;
+    margin: 0 -2.5px;
+    font-size: 0.85rem;
+}
+
+.recm-b p {
+    font-weight: 400;
+    font-size: 0.95rem;
+    padding-top: 0.3rem;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.recm-b > a > figure img {
+    width: 230px;
+    border-radius: 2px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.recm-b > figure img {
+    width: 230px;
+    border-radius: 2px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
